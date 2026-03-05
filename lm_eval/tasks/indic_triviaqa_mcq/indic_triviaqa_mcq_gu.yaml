@@ -1,0 +1,4 @@
+"dataset_name": "gu"
+"description": "Answer the following multiple-choice trivia questions in Gujarati.\n\n"
+"include": "_default_template_yaml"
+"task": "indic_triviaqa_mcq_gu"

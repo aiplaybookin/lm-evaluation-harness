@@ -1,0 +1,4 @@
+"dataset_name": "hi"
+"description": "Answer the following multiple-choice trivia questions in Hindi.\n\n"
+"include": "_default_template_yaml"
+"task": "indic_triviaqa_mcq_hi"

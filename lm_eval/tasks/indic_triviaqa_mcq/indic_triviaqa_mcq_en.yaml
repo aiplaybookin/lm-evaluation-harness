@@ -1,0 +1,4 @@
+"dataset_name": "en"
+"description": "Answer the following multiple-choice trivia questions in English.\n\n"
+"include": "_default_template_yaml"
+"task": "indic_triviaqa_mcq_en"

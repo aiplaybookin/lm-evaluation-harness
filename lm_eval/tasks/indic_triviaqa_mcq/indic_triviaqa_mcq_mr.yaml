@@ -1,0 +1,4 @@
+"dataset_name": "mr"
+"description": "Answer the following multiple-choice trivia questions in Marathi.\n\n"
+"include": "_default_template_yaml"
+"task": "indic_triviaqa_mcq_mr"

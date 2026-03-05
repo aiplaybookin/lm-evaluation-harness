@@ -1,0 +1,4 @@
+"dataset_name": "ml"
+"description": "Answer the following multiple-choice trivia questions in Malayalam.\n\n"
+"include": "_default_template_yaml"
+"task": "indic_triviaqa_mcq_ml"
