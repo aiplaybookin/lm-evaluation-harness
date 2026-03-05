@@ -1,0 +1,22 @@
+# Base config for sarvamai/arc-challenge-indic
+# Each language config includes this file and overrides task name + dataset_name.
+task: null
+dataset_path: sarvamai/arc-challenge-indic
+dataset_name: null
+output_type: multiple_choice
+test_split: test
+fewshot_split: validation
+fewshot_config:
+  sampler: first_n
+doc_to_text: "{{question.strip()}}\nA. {{choices.text[0]}}\nB. {{choices.text[1]}}\nC. {{choices.text[2]}}\nD. {{choices.text[3]}}\nAnswer:"
+doc_to_choice: ["A", "B", "C", "D"]
+doc_to_target: "{{'ABCD'.index(answerKey)}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,4 @@
+"dataset_name": "kn"
+"description": "Answer the following multiple-choice questions in Kannada.\n\n"
+"include": "_default_template_yaml"
+"task": "mmlu_indic_kn"

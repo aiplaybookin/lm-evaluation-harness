@@ -1,0 +1,4 @@
+"dataset_name": "or"
+"description": "Answer the following multiple-choice questions in Odia.\n\n"
+"include": "_default_template_yaml"
+"task": "arc_challenge_indic_or"

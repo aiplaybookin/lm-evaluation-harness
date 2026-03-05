@@ -1,0 +1,4 @@
+"dataset_name": "gu"
+"description": "Answer the following multiple-choice questions in Gujarati.\n\n"
+"include": "_default_template_yaml"
+"task": "mmlu_indic_gu"

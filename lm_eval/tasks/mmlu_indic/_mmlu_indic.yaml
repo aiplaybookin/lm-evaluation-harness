@@ -1,0 +1,21 @@
+group: mmlu_indic
+task:
+  - mmlu_indic_bn
+  - mmlu_indic_gu
+  - mmlu_indic_hi
+  - mmlu_indic_kn
+  - mmlu_indic_ml
+  - mmlu_indic_mr
+  - mmlu_indic_or
+  - mmlu_indic_pa
+  - mmlu_indic_ta
+  - mmlu_indic_te
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
