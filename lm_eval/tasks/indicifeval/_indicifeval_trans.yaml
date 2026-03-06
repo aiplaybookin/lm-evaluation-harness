@@ -1,0 +1,32 @@
+group: indicifeval_trans
+task:
+  - indicifeval_trans_en
+  - indicifeval_trans_as
+  - indicifeval_trans_bn
+  - indicifeval_trans_gu
+  - indicifeval_trans_hi
+  - indicifeval_trans_kn
+  - indicifeval_trans_ml
+  - indicifeval_trans_mr
+  - indicifeval_trans_ne
+  - indicifeval_trans_or
+  - indicifeval_trans_pa
+  - indicifeval_trans_sa
+  - indicifeval_trans_ta
+  - indicifeval_trans_te
+  - indicifeval_trans_ur
+aggregate_metric_list:
+  - metric: prompt_level_strict_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: inst_level_strict_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: prompt_level_loose_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: inst_level_loose_acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

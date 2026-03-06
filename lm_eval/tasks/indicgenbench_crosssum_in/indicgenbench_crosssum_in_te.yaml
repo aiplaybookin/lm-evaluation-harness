@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_te
+process_docs: !function utils.process_docs_te
+doc_to_text: "Summarize the following English article in Telugu.\n\nArticle: {{text}}\n\nSummary in Telugu:"

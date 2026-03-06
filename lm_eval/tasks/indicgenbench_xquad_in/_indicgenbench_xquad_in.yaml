@@ -1,0 +1,22 @@
+group: indicgenbench_xquad_in
+task:
+  - indicgenbench_xquad_in_bn
+  - indicgenbench_xquad_in_gu
+  - indicgenbench_xquad_in_hi
+  - indicgenbench_xquad_in_kn
+  - indicgenbench_xquad_in_ml
+  - indicgenbench_xquad_in_mr
+  - indicgenbench_xquad_in_or
+  - indicgenbench_xquad_in_pa
+  - indicgenbench_xquad_in_ta
+  - indicgenbench_xquad_in_te
+  - indicgenbench_xquad_in_ur
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+  - metric: f1
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

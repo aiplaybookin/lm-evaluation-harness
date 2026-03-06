@@ -1,0 +1,31 @@
+group: indicifeval_ground
+task:
+  - indicifeval_ground_as
+  - indicifeval_ground_bn
+  - indicifeval_ground_gu
+  - indicifeval_ground_hi
+  - indicifeval_ground_kn
+  - indicifeval_ground_ml
+  - indicifeval_ground_mr
+  - indicifeval_ground_ne
+  - indicifeval_ground_or
+  - indicifeval_ground_pa
+  - indicifeval_ground_sa
+  - indicifeval_ground_ta
+  - indicifeval_ground_te
+  - indicifeval_ground_ur
+aggregate_metric_list:
+  - metric: prompt_level_strict_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: inst_level_strict_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: prompt_level_loose_acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: inst_level_loose_acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

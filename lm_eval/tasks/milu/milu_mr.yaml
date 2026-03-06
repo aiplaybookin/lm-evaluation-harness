@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "Marathi"
+"description": "Answer the following multiple-choice questions in Marathi.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_mr"

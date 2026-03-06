@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "Telugu"
+"description": "Answer the following multiple-choice questions in Telugu.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_te"

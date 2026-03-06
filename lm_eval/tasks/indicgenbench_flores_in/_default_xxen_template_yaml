@@ -1,0 +1,29 @@
+# Base config for google/IndicGenBench_flores_in — Indic → English direction.
+# Each language config includes this file and overrides task, process_docs, and doc_to_text.
+task: null
+dataset_path: google/IndicGenBench_flores_in
+dataset_kwargs:
+  field: "examples"
+output_type: generate_until
+test_split: test
+fewshot_split: validation
+fewshot_config:
+  sampler: first_n
+doc_to_text: null
+doc_to_target: "{{target}}"
+generation_kwargs:
+  until:
+    - "\n"
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 256
+target_delimiter: " "
+metric_list:
+  - metric: !function utils.bleu
+    aggregation: !function utils.agg_bleu
+    higher_is_better: true
+  - metric: !function utils.chrf
+    aggregation: !function utils.agg_chrf
+    higher_is_better: true
+metadata:
+  version: 1.0

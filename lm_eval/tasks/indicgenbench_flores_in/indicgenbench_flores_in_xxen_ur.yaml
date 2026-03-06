@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_ur
+process_docs: !function utils.process_docs_xxen_ur
+doc_to_text: "Translate the following sentence from Urdu to English.\n\nUrdu: {{source}}\nEnglish:"

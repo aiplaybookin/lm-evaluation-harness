@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_ta
+process_docs: !function utils.process_docs_xxen_ta
+doc_to_text: "Translate the following sentence from Tamil to English.\n\nTamil: {{source}}\nEnglish:"

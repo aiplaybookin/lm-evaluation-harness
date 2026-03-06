@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_ml
+process_docs: !function utils.process_docs_xxen_ml
+doc_to_text: "Translate the following sentence from Malayalam to English.\n\nMalayalam: {{source}}\nEnglish:"

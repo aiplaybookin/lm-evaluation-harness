@@ -1,0 +1,22 @@
+group: indicgenbench_flores_in_xxen
+task:
+  - indicgenbench_flores_in_xxen_bn
+  - indicgenbench_flores_in_xxen_gu
+  - indicgenbench_flores_in_xxen_hi
+  - indicgenbench_flores_in_xxen_kn
+  - indicgenbench_flores_in_xxen_ml
+  - indicgenbench_flores_in_xxen_mr
+  - indicgenbench_flores_in_xxen_or
+  - indicgenbench_flores_in_xxen_pa
+  - indicgenbench_flores_in_xxen_ta
+  - indicgenbench_flores_in_xxen_te
+  - indicgenbench_flores_in_xxen_ur
+aggregate_metric_list:
+  - metric: bleu
+    aggregation: mean
+    weight_by_size: true
+  - metric: chrf
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

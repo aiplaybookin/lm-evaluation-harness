@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_hi
+process_docs: !function utils.process_docs_xxen_hi
+doc_to_text: "Translate the following sentence from Hindi to English.\n\nHindi: {{source}}\nEnglish:"

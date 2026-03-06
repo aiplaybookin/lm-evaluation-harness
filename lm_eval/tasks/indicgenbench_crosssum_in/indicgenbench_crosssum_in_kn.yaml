@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_kn
+process_docs: !function utils.process_docs_kn
+doc_to_text: "Summarize the following English article in Kannada.\n\nArticle: {{text}}\n\nSummary in Kannada:"

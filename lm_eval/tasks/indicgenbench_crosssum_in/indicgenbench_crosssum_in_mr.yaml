@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_mr
+process_docs: !function utils.process_docs_mr
+doc_to_text: "Summarize the following English article in Marathi.\n\nArticle: {{text}}\n\nSummary in Marathi:"

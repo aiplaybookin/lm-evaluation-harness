@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_xquad_in_te
+process_docs: !function utils.process_docs_te
+description: "Answer the following question based on the given context.\n\n"

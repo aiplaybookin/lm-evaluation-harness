@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "Kannada"
+"description": "Answer the following multiple-choice questions in Kannada.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_kn"

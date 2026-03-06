@@ -1,0 +1,4 @@
+include: _default_enxx_template_yaml
+task: indicgenbench_flores_in_enxx_ta
+process_docs: !function utils.process_docs_enxx_ta
+doc_to_text: "Translate the following sentence from English to Tamil.\n\nEnglish: {{source}}\nTamil:"

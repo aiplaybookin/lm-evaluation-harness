@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicifeval_ground_as
+dataset_name: indicifeval-ground
+test_split: as

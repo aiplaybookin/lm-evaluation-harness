@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_ur
+process_docs: !function utils.process_docs_ur
+doc_to_text: "Summarize the following English article in Urdu.\n\nArticle: {{text}}\n\nSummary in Urdu:"

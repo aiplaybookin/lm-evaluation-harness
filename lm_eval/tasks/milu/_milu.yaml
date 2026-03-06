@@ -1,0 +1,22 @@
+group: milu
+task:
+  - milu_bn
+  - milu_en
+  - milu_gu
+  - milu_hi
+  - milu_kn
+  - milu_ml
+  - milu_mr
+  - milu_or
+  - milu_pa
+  - milu_ta
+  - milu_te
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

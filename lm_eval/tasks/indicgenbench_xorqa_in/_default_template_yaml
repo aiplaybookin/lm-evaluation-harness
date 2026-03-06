@@ -1,0 +1,32 @@
+# Base config for google/IndicGenBench_xorqa_in
+# Context is in English; question is in the target Indic language.
+# Evaluated against translated_answers (Indic answer).
+# Each language config includes this file and overrides task name and process_docs.
+task: null
+dataset_path: google/IndicGenBench_xorqa_in
+dataset_kwargs:
+  field: "examples"
+output_type: generate_until
+validation_split: validation
+fewshot_split: validation
+fewshot_config:
+  sampler: first_n
+doc_to_text: "Passage: {{context}}\n\nQuestion: {{question}}\n\nAnswer:"
+doc_to_target: "{{translated_answers.text[0]}}"
+process_results: !function utils.process_results_qa
+generation_kwargs:
+  until:
+    - "\n"
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 100
+target_delimiter: " "
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "Bengali"
+"description": "Answer the following multiple-choice questions in Bengali.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_bn"

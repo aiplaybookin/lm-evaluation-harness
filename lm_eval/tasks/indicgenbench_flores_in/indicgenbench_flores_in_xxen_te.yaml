@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_te
+process_docs: !function utils.process_docs_xxen_te
+doc_to_text: "Translate the following sentence from Telugu to English.\n\nTelugu: {{source}}\nEnglish:"

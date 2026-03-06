@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "English"
+"description": "Answer the following multiple-choice questions in English.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_en"

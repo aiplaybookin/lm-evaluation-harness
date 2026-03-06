@@ -1,0 +1,4 @@
+include: _default_enxx_template_yaml
+task: indicgenbench_flores_in_enxx_mr
+process_docs: !function utils.process_docs_enxx_mr
+doc_to_text: "Translate the following sentence from English to Marathi.\n\nEnglish: {{source}}\nMarathi:"

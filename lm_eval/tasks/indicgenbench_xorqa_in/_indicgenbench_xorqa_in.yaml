@@ -1,0 +1,22 @@
+group: indicgenbench_xorqa_in
+task:
+  - indicgenbench_xorqa_in_bn
+  - indicgenbench_xorqa_in_gu
+  - indicgenbench_xorqa_in_hi
+  - indicgenbench_xorqa_in_kn
+  - indicgenbench_xorqa_in_ml
+  - indicgenbench_xorqa_in_mr
+  - indicgenbench_xorqa_in_or
+  - indicgenbench_xorqa_in_pa
+  - indicgenbench_xorqa_in_ta
+  - indicgenbench_xorqa_in_te
+  - indicgenbench_xorqa_in_ur
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+  - metric: f1
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

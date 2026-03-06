@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_bn
+process_docs: !function utils.process_docs_bn
+doc_to_text: "Summarize the following English article in Bengali.\n\nArticle: {{text}}\n\nSummary in Bengali:"

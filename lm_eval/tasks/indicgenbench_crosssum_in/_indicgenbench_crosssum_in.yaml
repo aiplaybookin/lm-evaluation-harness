@@ -1,0 +1,19 @@
+group: indicgenbench_crosssum_in
+task:
+  - indicgenbench_crosssum_in_bn
+  - indicgenbench_crosssum_in_gu
+  - indicgenbench_crosssum_in_hi
+  - indicgenbench_crosssum_in_kn
+  - indicgenbench_crosssum_in_ml
+  - indicgenbench_crosssum_in_mr
+  - indicgenbench_crosssum_in_or
+  - indicgenbench_crosssum_in_pa
+  - indicgenbench_crosssum_in_ta
+  - indicgenbench_crosssum_in_te
+  - indicgenbench_crosssum_in_ur
+aggregate_metric_list:
+  - metric: rouge_l
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

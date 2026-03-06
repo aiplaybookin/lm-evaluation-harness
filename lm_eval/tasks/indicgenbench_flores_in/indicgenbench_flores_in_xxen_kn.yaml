@@ -1,0 +1,4 @@
+include: _default_xxen_template_yaml
+task: indicgenbench_flores_in_xxen_kn
+process_docs: !function utils.process_docs_xxen_kn
+doc_to_text: "Translate the following sentence from Kannada to English.\n\nKannada: {{source}}\nEnglish:"

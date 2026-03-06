@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_gu
+process_docs: !function utils.process_docs_gu
+doc_to_text: "Summarize the following English article in Gujarati.\n\nArticle: {{text}}\n\nSummary in Gujarati:"

@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_or
+process_docs: !function utils.process_docs_or
+doc_to_text: "Summarize the following English article in Odia.\n\nArticle: {{text}}\n\nSummary in Odia:"

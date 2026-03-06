@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_pa
+process_docs: !function utils.process_docs_pa
+doc_to_text: "Summarize the following English article in Punjabi.\n\nArticle: {{text}}\n\nSummary in Punjabi:"

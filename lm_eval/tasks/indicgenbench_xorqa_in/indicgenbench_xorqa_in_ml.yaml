@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_xorqa_in_ml
+process_docs: !function utils.process_docs_ml
+description: "Answer the following question based on the given passage.\n\n"

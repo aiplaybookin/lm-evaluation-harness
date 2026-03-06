@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicgenbench_crosssum_in_hi
+process_docs: !function utils.process_docs_hi
+doc_to_text: "Summarize the following English article in Hindi.\n\nArticle: {{text}}\n\nSummary in Hindi:"

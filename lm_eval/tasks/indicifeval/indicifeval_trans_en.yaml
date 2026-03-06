@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task: indicifeval_trans_en
+dataset_name: indicifeval-trans
+test_split: en

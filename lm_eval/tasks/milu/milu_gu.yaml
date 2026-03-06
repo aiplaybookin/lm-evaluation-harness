@@ -1,0 +1,5 @@
+"dataset_kwargs":
+  "data_dir": "Gujarati"
+"description": "Answer the following multiple-choice questions in Gujarati.\n\n"
+"include": "_default_template_yaml"
+"task": "milu_gu"

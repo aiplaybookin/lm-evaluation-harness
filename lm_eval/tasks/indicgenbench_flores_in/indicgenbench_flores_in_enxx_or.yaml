@@ -1,0 +1,4 @@
+include: _default_enxx_template_yaml
+task: indicgenbench_flores_in_enxx_or
+process_docs: !function utils.process_docs_enxx_or
+doc_to_text: "Translate the following sentence from English to Odia.\n\nEnglish: {{source}}\nOdia:"
