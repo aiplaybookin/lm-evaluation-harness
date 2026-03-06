@@ -1,0 +1,2 @@
+task: indicqa_pa
+class: !function task.IndicQA_pa

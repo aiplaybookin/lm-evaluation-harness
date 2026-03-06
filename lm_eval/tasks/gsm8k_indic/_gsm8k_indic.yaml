@@ -1,0 +1,34 @@
+group: gsm8k_indic
+task:
+  - gsm8k_indic_bn
+  - gsm8k_indic_bn_roman
+  - gsm8k_indic_en
+  - gsm8k_indic_gu
+  - gsm8k_indic_gu_roman
+  - gsm8k_indic_hi
+  - gsm8k_indic_hi_roman
+  - gsm8k_indic_kn
+  - gsm8k_indic_kn_roman
+  - gsm8k_indic_ml
+  - gsm8k_indic_ml_roman
+  - gsm8k_indic_mr
+  - gsm8k_indic_mr_roman
+  - gsm8k_indic_or
+  - gsm8k_indic_or_roman
+  - gsm8k_indic_pa
+  - gsm8k_indic_pa_roman
+  - gsm8k_indic_ta
+  - gsm8k_indic_ta_roman
+  - gsm8k_indic_te
+  - gsm8k_indic_te_roman
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+    filter: strict-match
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+    filter: flexible-extract
+metadata:
+  version: 1.0

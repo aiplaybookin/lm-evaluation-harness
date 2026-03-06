@@ -1,0 +1,2 @@
+task: indicqa_as
+class: !function task.IndicQA_as

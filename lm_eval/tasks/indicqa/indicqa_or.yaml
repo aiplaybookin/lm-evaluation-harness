@@ -1,0 +1,2 @@
+task: indicqa_or
+class: !function task.IndicQA_or
